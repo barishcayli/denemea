@@ -80,11 +80,17 @@ class _gorev_eklemeState extends State<gorev_ekleme> {
                     ElevatedButton(
                       onPressed: () {
                         if (widget.docID == null) {
-                          firestoreService.addgorev(
-                            AdKontrol.text,
-                            baslangic.text,
-                            bitis.text,
-                          );
+                          if (AdKontrol.text == "" ||
+                              baslangic.text == "" ||
+                              bitis.text == "") {
+                          } else {
+                            firestoreService.addgorev(
+                              AdKontrol.text,
+                              baslangic.text,
+                              bitis.text,
+                            );
+                          }
+                          ;
                         } else {
                           firestoreService.updategorev(
                             widget.docID!,

@@ -31,10 +31,11 @@ class FirestoreService {
     String baslangictarihi,
     String bitistarihi,
   ) {
-    return gorev.add({
+    return gorev.doc(docID).update({
       'gorev': gorevadi,
       'baslangictarihi': baslangictarihi,
       'bitistarihi': bitistarihi,
+      'eklemeonayi': true,
       'eklenme zamanı': Timestamp.now()
     });
   }
