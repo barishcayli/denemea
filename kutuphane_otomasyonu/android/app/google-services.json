@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957255439034",
+    "project_id": "kutuphane-otomasyonu-9a769",
+    "storage_bucket": "kutuphane-otomasyonu-9a769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957255439034:android:ad69ebeefd1dea30f2e883",
+        "android_client_info": {
+          "package_name": "com.example.kutuphane_otomasyonu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwz46XJZvkRxNE6f3SFaInjvIAOzLbwRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
